@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4A5D579DF2442E49CDB90E6 /* ClipboardManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F2D6D5F4B4F8D9AE3D745 /* ClipboardManagerApp.swift */; };
+		ACE6273213594AD488FB4888 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C438AC4F514FE6AAF1FF04 /* AppDelegate.swift */; };
+		4C2026D0BD9D42FAA8520494 /* AppSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0170477FC92405BA5A1D128 /* AppSupport.swift */; };
+		CBF7A49984E4405BB19A2543 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CBDF40AA1643DEA9E13D3A /* HistoryStore.swift */; };
+		F70C61A2EA754381BAA2FA16 /* ClipboardMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2771ABDEBC44189605AAC2 /* ClipboardMonitor.swift */; };
+		40FE885084CE4DC5ABA59771 /* HotkeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5570C03747B64BC2AB0DE06B /* HotkeyService.swift */; };
+		CEC30464D06A42559022446B /* PasteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE2AA0572F4B9D943F6F62 /* PasteService.swift */; };
+		1DBB6B41686144B1B3CA35E1 /* ClipboardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A80FA453A324384AEC1D7B1 /* ClipboardItem.swift */; };
+		BE08B39BBBC64AE8AF8B4BDB /* OverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DC362EF786483F90246E5C /* OverlayWindow.swift */; };
+		5EFB9EE517FB489D8172468A /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF361C81897471AA5E4AB79 /* OverlayView.swift */; };
+		3C773AC98104424FBC5FDD14 /* RowViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9199917BB60145F98A46B4A5 /* RowViews.swift */; };
+		E9A2F92D3C1C4EF9B5741100 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACEEAF3E7444C14B48365BB /* SettingsView.swift */; };
+		C31EA77646C64DB4A2B9417B /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 805721AB89284CEDA1FFF05E /* SQLite */; };
+		B2C3D4E5F60718293A4B5C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B5C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A4F2D6D5F4B4F8D9AE3D745 /* ClipboardManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardManagerApp.swift; sourceTree = "<group>"; };
+		40C438AC4F514FE6AAF1FF04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0170477FC92405BA5A1D128 /* AppSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSupport.swift; sourceTree = "<group>"; };
+		05CBDF40AA1643DEA9E13D3A /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		CD2771ABDEBC44189605AAC2 /* ClipboardMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardMonitor.swift; sourceTree = "<group>"; };
+		5570C03747B64BC2AB0DE06B /* HotkeyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyService.swift; sourceTree = "<group>"; };
+		23EE2AA0572F4B9D943F6F62 /* PasteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteService.swift; sourceTree = "<group>"; };
+		8A80FA453A324384AEC1D7B1 /* ClipboardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardItem.swift; sourceTree = "<group>"; };
+		10DC362EF786483F90246E5C /* OverlayWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayWindow.swift; sourceTree = "<group>"; };
+		0EF361C81897471AA5E4AB79 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		9199917BB60145F98A46B4A5 /* RowViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowViews.swift; sourceTree = "<group>"; };
+		0ACEEAF3E7444C14B48365BB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B7FCD9C14C8C4DDCA486D5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002E7B1AEF6E4CD3A41B0A8E /* ClipboardManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClipboardManager.entitlements; sourceTree = "<group>"; };
+		13025BF713834FE18FBD2D0B /* ClipboardManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboardManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D4E5F60718293A4B5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3094A606A8AE48B4895C96A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31EA77646C64DB4A2B9417B /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD967D4DC7B8447EB07BB00A = {
+			isa = PBXGroup;
+			children = (
+				01726D35D119459D84ACADD3,
+				A1A69F59B1E34800ACAB1EB9,
+			);
+			sourceTree = "<group>";
+		};
+		01726D35D119459D84ACADD3 = {
+			isa = PBXGroup;
+			children = (
+				7B2037EE9C2B4E02BB649920,
+				165D88ADE5AE4134A5D5CCEF,
+				70A93677750F412ABACA56D4,
+				C25236312F9944DEAEA7AFAB,
+				F33E35FA03E54D4DBFE8097E,
+			);
+			path = ClipboardManager;
+			sourceTree = "<group>";
+		};
+		7B2037EE9C2B4E02BB649920 = {
+			isa = PBXGroup;
+			children = (
+				3A4F2D6D5F4B4F8D9AE3D745,
+				40C438AC4F514FE6AAF1FF04,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		165D88ADE5AE4134A5D5CCEF = {
+			isa = PBXGroup;
+			children = (
+				D0170477FC92405BA5A1D128,
+				05CBDF40AA1643DEA9E13D3A,
+				CD2771ABDEBC44189605AAC2,
+				5570C03747B64BC2AB0DE06B,
+				23EE2AA0572F4B9D943F6F62,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		70A93677750F412ABACA56D4 = {
+			isa = PBXGroup;
+			children = (
+				8A80FA453A324384AEC1D7B1,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C25236312F9944DEAEA7AFAB = {
+			isa = PBXGroup;
+			children = (
+				10DC362EF786483F90246E5C,
+				0EF361C81897471AA5E4AB79,
+				9199917BB60145F98A46B4A5,
+				0ACEEAF3E7444C14B48365BB,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F33E35FA03E54D4DBFE8097E = {
+			isa = PBXGroup;
+			children = (
+				B7FCD9C14C8C4DDCA486D5D8,
+				002E7B1AEF6E4CD3A41B0A8E,
+				A1B2C3D4E5F60718293A4B5C,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A1A69F59B1E34800ACAB1EB9 = {
+			isa = PBXGroup;
+			children = (
+				13025BF713834FE18FBD2D0B /* ClipboardManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CB33AB7AB2E4C0893D10429 /* ClipboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574419FF9B5D424EA0F79B54 /* Build configuration list for PBXNativeTarget "ClipboardManager" */;
+			buildPhases = (
+				9CE3345F25174484A2BE5D36 /* Sources */,
+				3094A606A8AE48B4895C96A2 /* Frameworks */,
+				9466B5AEB37F408587F121AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClipboardManager;
+			packageProductDependencies = (
+				805721AB89284CEDA1FFF05E /* SQLite */,
+			);
+			productName = ClipboardManager;
+			productReference = 13025BF713834FE18FBD2D0B /* ClipboardManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EBD71FD08B240B99A840111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5CB33AB7AB2E4C0893D10429 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 8F9AC266F33D4E06B745B639 /* Build configuration list for PBXProject "ClipboardManager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD967D4DC7B8447EB07BB00A;
+			packageReferences = (
+				629FA01B32564480AADB8A62 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
+			productRefGroup = A1A69F59B1E34800ACAB1EB9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CB33AB7AB2E4C0893D10429 /* ClipboardManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9466B5AEB37F408587F121AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C3D4E5F60718293A4B5C6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CE3345F25174484A2BE5D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A5D579DF2442E49CDB90E6 /* ClipboardManagerApp.swift in Sources */,
+				ACE6273213594AD488FB4888 /* AppDelegate.swift in Sources */,
+				4C2026D0BD9D42FAA8520494 /* AppSupport.swift in Sources */,
+				CBF7A49984E4405BB19A2543 /* HistoryStore.swift in Sources */,
+				F70C61A2EA754381BAA2FA16 /* ClipboardMonitor.swift in Sources */,
+				40FE885084CE4DC5ABA59771 /* HotkeyService.swift in Sources */,
+				CEC30464D06A42559022446B /* PasteService.swift in Sources */,
+				1DBB6B41686144B1B3CA35E1 /* ClipboardItem.swift in Sources */,
+				BE08B39BBBC64AE8AF8B4BDB /* OverlayWindow.swift in Sources */,
+				5EFB9EE517FB489D8172468A /* OverlayView.swift in Sources */,
+				3C773AC98104424FBC5FDD14 /* RowViews.swift in Sources */,
+				E9A2F92D3C1C4EF9B5741100 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+/* Begin XCBuildConfiguration section */
+/* Begin XCBuildConfiguration section */
+/* Begin XCBuildConfiguration section */
+/* Begin XCBuildConfiguration section */
+		28899D200C114CE9BE4BD8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F9C3C0F8E54448DB7B70808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9C1998CD378845549B9CBA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClipboardManager/Resources/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks",);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.windowsv.ClipboardManager;
+				PRODUCT_NAME = ClipboardManager;
+				SWIFT_VERSION = 5.0;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ClipboardManager/ClipboardManager.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			};
+			name = Debug;
+		};
+		02EAC5421B764FE98A9A902E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClipboardManager/Resources/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks",);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.windowsv.ClipboardManager;
+				PRODUCT_NAME = ClipboardManager;
+				SWIFT_VERSION = 5.0;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ClipboardManager/ClipboardManager.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F9AC266F33D4E06B745B639 /* Build configuration list for PBXProject "ClipboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28899D200C114CE9BE4BD8F1 /* Debug */,
+				4F9C3C0F8E54448DB7B70808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574419FF9B5D424EA0F79B54 /* Build configuration list for PBXNativeTarget "ClipboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C1998CD378845549B9CBA08 /* Debug */,
+				02EAC5421B764FE98A9A902E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		629FA01B32564480AADB8A62 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		805721AB89284CEDA1FFF05E /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 629FA01B32564480AADB8A62 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1EBD71FD08B240B99A840111 /* Project object */;
+}
